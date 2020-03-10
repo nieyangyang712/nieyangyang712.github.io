@@ -5,7 +5,7 @@
 # 图片效果展示2
 <img src="img/show1.png" />
 
-<a href="https://nieyangyang712.github.io/">项目展示地址：</a>
+<a href="https://nieyangyang712.github.io/">项目展示地址：https://nieyangyang712.github.io/</a>
 
 ## Project setup
 ```
