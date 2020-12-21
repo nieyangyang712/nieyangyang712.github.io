@@ -1,0 +1,208 @@
+{
+    "LogoArea": {
+        "id": "01",
+        "name": "LogoArea",
+        "top": 14,
+        "width": 300,
+        "height": 0,
+        "description": "Logo区",
+        "style": {
+            "vertical-align": "middle",
+            "position": "absolute",
+            "border": "none",
+            "display": "flex"
+        },
+        "logoImg": {
+            "id": "0101",
+            "type": "image",
+            "style": {
+                "width": 40,
+                "height": 36,
+                "vertical-align": "inherit"
+            },
+            "imgAlign": "center",
+            "name": "Logo图片",
+            "src": "_logo.png"
+        },
+        "logoText": {
+            "id": "0102",
+            "type": "text",
+            "style": {
+                "width": 120,
+                "height": 40,
+                "color": "#FFFFFF"
+            },
+            "textAlign": "right",
+            "name": ""
+        }
+    },
+    "headerArea": {
+        "style": {
+            "height": 60,
+            "width": 101
+        },
+        "bgFlag": true,
+        "background": "#023F98",
+        "backgroundImg": "headerBg.jpg"
+    },
+    "navArea": {
+        "style": {
+            "color": "#FFFFFF",
+            "fontSize": 20,
+            "height": 0,
+            "lineHeight": 63,
+            "marginTop": 3,
+            "marginRight": 41,
+            "marginBottom": 0,
+            "marginLeft": 20,
+            "padding": "0 5px 0 5px",
+            "backgroundMouseOver": "#1B65BF"
+        },
+        "icon": {
+            "display": "inline-block",
+            "marginRight": 12,
+            "marginTop": -11,
+            "marginBottom": 1,
+            "marginLeft": 0,
+            "fontSize": "large"
+        },
+        "activeColor": "#FFE031",
+        "iconFlag": true,
+        "navFlag": true,
+        "navStyle": {
+            "right": 270,
+            "left": 260
+        },
+        "navDirection": false,
+        "navSystemText": ""
+    },
+    "navBotArea": {
+        "style": {
+            "color": "#333",
+            "fontSize": 22,
+            "height": 56,
+            "lineHeight": 60,
+            "marginTop": 4,
+            "marginRight": 44,
+            "marginBottom": 0,
+            "marginLeft": 20,
+            "padding": "0 5px 0 5px",
+            "backgroundMouseOver": "#1B65BF",
+            "textBottomColor": "#6131FF"
+        },
+        "icon": {
+            "display": "inline-block",
+            "marginRight": 14,
+            "marginTop": 0,
+            "marginBottom": 1,
+            "marginLeft": 0,
+            "fontSize": "large"
+        },
+        "activeColor": "#023F98",
+        "iconFlag": true
+    },
+    "menuArea": {
+        "style": {
+            "color": "#fff",
+            "background": "#001529",
+            "activeColor": "#FFE031",
+            "width": 180
+        },
+        "collapse": {
+            "minWidth": 68,
+            "maxWidth": 190
+        },
+        "navigation": {
+            "switch": "1"
+        },
+        "navPattern": {
+            "switch": "1"
+        }
+    },
+    "MainNavbarArea": {
+        "id": "02",
+        "name": "MainNavbarArea",
+        "left": "100",
+        "top": "0",
+        "width": "full",
+        "height": "50",
+        "foreground": "0,0,0",
+        "background": "0,0,0",
+        "border": "none",
+        "description": "主菜单/功能区"
+    },
+    "NoticebarArea": {
+        "id": "03",
+        "float": "right",
+        "marginTop": "13px",
+        "width": "360px",
+        "height": "50",
+        "border": "none",
+        "description": "消息提示区",
+        "span": {
+            "cursor": "pointer"
+        }
+    },
+    "MainLeftSidebarArea": {
+        "id": "04",
+        "name": "MainLeftSidebarArea",
+        "float": "right",
+        "left": "0",
+        "marginTop": "13",
+        "width": "200",
+        "height": "100%",
+        "foreground": "0,0,0",
+        "background": "0,0,0",
+        "border": "none",
+        "description": "子菜单区"
+    },
+    "MainShowArea": {
+        "id": "05",
+        "name": "MainShowArea",
+        "left": "200",
+        "top": "100",
+        "width": "100%",
+        "height": "100%",
+        "foreground": "0,0,0",
+        "background": "0,0,0",
+        "border": "none",
+        "description": "主显示/操作区"
+    },
+    "systemArea": {
+        "id": "06",
+        "systemTitle": "网管运维系统",
+        "indexTitle": "编辑",
+        "indexChildTitle": "编辑2"
+    },
+    "loginArea": {
+        "loginOuterWidth": 1300,
+        "loginOuterHeight": 600,
+        "loginOuterBackgroundImg": "wrapper.png",
+        "loginOuterBackground": "#202c3a",
+        "loginOuterBgFlag": true,
+        "loginInnerWidth": 300,
+        "loginInnerHeight": 350,
+        "loginInnerBackgroundImg": "headerBg.jpg",
+        "loginInnerBackground": "#fff",
+        "loginInnerBgFlag": false,
+        "backgroundImg": "back.jpg",
+        "float": "right",
+        "margin": "",
+        "logoBackgroundImg": "logo-01.png",
+        "systemGroundImg": "system.png"
+    },
+    "mainArea": {
+        "mainWidth": 98,
+        "mainLeft": 1,
+        "mainTop": 10,
+        "mainRight": 1,
+        "mainBottom": 10,
+        "background": "#eee",
+        "navHeight": 60,
+        "indexWidth": 100,
+        "indexLeft": 0,
+        "indexTop": 0,
+        "indexRight": 0,
+        "indexBottom": 0
+    }
+}

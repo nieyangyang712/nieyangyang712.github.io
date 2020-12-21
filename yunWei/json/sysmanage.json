@@ -1,0 +1,132 @@
+{
+  "router": [{
+    "parentId": 0,
+    "menuType": "M",
+    "name": "系统配置",
+    "path": "sysconfig",
+    "visible": "0",
+    "icon": "fa fa-gears",
+    "component": "home/index",
+    "redirect": "nodeconfig",
+    "remark": "",
+    "meta": {
+      "keepAlive": false,
+      "title": "系统配置",
+      "requireAuth": true,
+      "roles": []
+    },
+    "paper": "",
+    "id": 24,
+    "children": [{
+      "parentId": 24,
+      "menuType": "C",
+      "name": "节点配置",
+      "path": "/nodeconfig",
+      "visible": "0",
+      "icon": "fa fa-chrome",
+      "component": "sysconfig/nodeconfig",
+      "remark": "",
+      "meta": {
+        "keepAlive": false,
+        "title": "节点配置",
+        "requireAuth": true,
+        "roles": []
+      },
+      "paper": "",
+      "id": 25,
+      "parentPath": "sysconfig/nodeconfig"
+    }, {
+      "parentId": 24,
+      "menuType": "C",
+      "name": "用户管理",
+      "path": "/usermanage",
+      "visible": "0",
+      "icon": "fa fa-male",
+      "component": "sysconfig/usermanage",
+      "remark": "",
+      "meta": {
+        "keepAlive": false,
+        "title": "用户管理",
+        "requireAuth": true,
+        "roles": []
+      },
+      "paper": "",
+      "id": 26,
+      "parentPath": "sysconfig/usermanage",
+      "children": [{
+        "parentId": 26,
+        "menuType": "C",
+        "name": "角色信息",
+        "path": "/userrole",
+        "visible": "0",
+        "icon": "el-icon-s-custom",
+        "component": "sysconfig/usermanage/userrole",
+        "remark": "",
+        "meta": {
+          "keepAlive": false,
+          "title": "角色信息",
+          "requireAuth": true,
+          "roles": []
+        },
+        "paper": "",
+        "id": 27,
+        "parentPath": "sysconfig/usermanage/userrole"
+      }, {
+        "parentId": 26,
+        "menuType": "C",
+        "name": "用户信息",
+        "path": "/usreinfo",
+        "visible": "0",
+        "icon": "fa fa-user",
+        "component": "sysconfig/usermanage/usreinfo",
+        "remark": "",
+        "meta": {
+          "keepAlive": false,
+          "title": "用户信息",
+          "requireAuth": true,
+          "roles": []
+        },
+        "paper": "",
+        "id": 28,
+        "parentPath": "sysconfig/usermanage/usreinfo"
+      }, {
+        "parentId": 26,
+        "menuType": "C",
+        "name": "用户权限",
+        "path": "/userright",
+        "visible": "0",
+        "icon": "fa fa-odnoklassniki",
+        "component": "sysconfig/usermanage/userright",
+        "remark": "",
+        "meta": {
+          "keepAlive": false,
+          "title": "用户权限",
+          "requireAuth": true,
+          "roles": []
+        },
+        "paper": "",
+        "id": 29,
+        "parentPath": "sysconfig/usermanage/userright"
+      }, {
+        "parentId": 26,
+        "menuType": "C",
+        "name": "用户类型",
+        "path": "/userui",
+        "visible": "0",
+        "icon": "fa fa-drivers-license",
+        "component": "sysconfig/usermanage/userui",
+        "remark": "",
+        "meta": {
+          "keepAlive": false,
+          "title": "用户类型",
+          "requireAuth": true,
+          "roles": []
+        },
+        "paper": "",
+        "id": 30,
+        "parentPath": "sysconfig/usermanage/userui"
+      }]
+    }]
+  }],
+  "message": []
+}
